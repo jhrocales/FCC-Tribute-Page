@@ -1,0 +1,116 @@
+/*Color Palette 
+https://colors.muz.li/palette/00008b/001861/bfcfff/809fff/ffffff
+*/
+
+html, body {
+   width: 100%;
+   padding: 0;
+   margin: 10px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Merriweather", serif;
+}
+
+#main {
+   background-color: #bfcfff;
+   border-radius: 10px;
+   width: 93vw;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   display: block;
+}
+
+#title, #subtitle, #img-caption, #tribute-info{
+   color: #001861;
+   text-align: center;
+}
+
+.divider {
+   margin: auto 30px;
+   border: 1px solid #00008b;
+}
+
+#title {
+   font-weight: 700;
+   font-style: italic;
+   font-size: 44px;
+   margin: 10px auto;
+}
+
+#subtitle {
+   font-weight: 400;
+   font-style: italic;
+   margin-top: -5px;
+   font-size: 17px;
+}
+
+#image {
+   width: 90%;
+   max-width: 100%;
+   height: auto;
+   border-radius: 10px;
+   margin: 10px auto;
+   display: block;
+}
+
+#img-caption {
+   font-weight: 900;
+   font-style: italic;
+   font-size: 14px;
+   margin: 0px 0px 20px 0px;
+}
+
+#tribute-div {
+   display: flex;
+   flex-direction: column;
+   margin: 0px 10px;
+}
+
+
+#tribute-title {
+   font-weight: bolder;
+   font-size: 21px;
+   margin-bottom: 0px;
+   color: #001861;
+}
+
+#tribute-info {
+   list-style: none;
+}
+
+#tribute-info > li > p {
+   font-size: 17px;
+   font-weight: 400;
+   text-align: justify;
+   margin-right: 35px;
+   text-indent: 30px;
+   color: #001861;
+}
+
+#tribute-quote {
+   color: #001861;
+   font-weight: 600;
+   font-style: italic;
+   font-size: 20px;
+}
+
+#tribute-footer {
+   color: #001861;
+   font-weight: 900;
+   font-size: 14px;
+}
+
+#tribute-footer > a{
+   color: #001861;
+   font-weight: 1200;
+   text-decoration: none;
+   font-style: italic;
+}
+
+#tribute-footer > a:hover{
+   color: #1500ff;
+   text-decoration: none;
+   font-style: italic;
+}
